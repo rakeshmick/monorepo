@@ -1,4 +1,4 @@
-This is a mono repo project using Lerna
+This is a TS mono repo project using Lerna
 
 
 npm install -g lerna

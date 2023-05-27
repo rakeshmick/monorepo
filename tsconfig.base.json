@@ -1,0 +1,28 @@
+{
+    "files": [],
+    "references": [
+      {
+        "path": "./packages/*"
+      }
+    ],
+    "compilerOptions": {
+      "rootDir": ".",
+      "outDir": "dist",
+      "declaration": true,
+      "composite": true,
+      "esModuleInterop": true,
+      "module": "CommonJS",
+      "target": "ES6",
+      "lib": ["ES6", "DOM"],
+      "sourceMap": true,
+      "strict": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true
+    }
+  }
+  
