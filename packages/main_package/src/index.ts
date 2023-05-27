@@ -1,9 +1,5 @@
-import * as dotenv from 'dotenv'
+import * as dotenv from 'dotenv';
 dotenv.config();
-
-const dbUser = process.env.DB_USER;
-const dbPassword = process.env.DB_PASSWORD;
-const dbHost = process.env.DB_HOST;
-
-console.log(dbUser);
-// use the environment variables in your code...
+const firstName = process.env.first;
+console.log(firstName);
+console.log(process.env.last);
